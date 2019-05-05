@@ -47,7 +47,7 @@ body{
 }
 
 #main{
-	margin: 1.5em 0 1.5em 0;
+	margin-top: 1.5em;
 	padding-top: 3em;
 	width: 100%;
 	display: flex;
@@ -102,7 +102,7 @@ body{
 	width: 60%;
 	padding: 3em 2em 3em 2em;
 	border-radius: 30px;
-	background-color: #96DDE3;
+	background-color: #44CBFD;
 	display: flex;
 	box-shadow: 2px 2px 19px #aaa;
     -o-box-shadow: 2px 2px 19px #aaa;
@@ -133,9 +133,8 @@ body{
 	width: 100%;
 	top: 0px;
 	z-index: -1;
-	background-repeat: no-repeat;
-	background-position: 50% 30%;
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 #section2{
@@ -179,7 +178,7 @@ body{
 #box{
 	width: 140px;
 	height: 140px;
-	background-color: #96DDE3;
+	background-color: #44CBFD;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -252,12 +251,19 @@ body{
 	align-items: center;
 	text-align: center;
 	margin-top: 3em;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("images/back4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 350px;
 }
 
 #contact-head{
 	font-size: 2em;
 	margin-bottom: 1em;
 	width: 100%;
+	color: white;
 }
 
 .contact-list{
@@ -281,7 +287,7 @@ body{
 
 .contact a{
 	text-decoration: none;
-	color: #9F9F9D;
+	color: white;
 }
 
 #copyright{
