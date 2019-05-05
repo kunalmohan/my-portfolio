@@ -102,7 +102,7 @@ body{
 	width: 60%;
 	padding: 3em 2em 3em 2em;
 	border-radius: 30px;
-	background-color: #44CBFD;
+	background-color: #123C69;
 	display: flex;
 	box-shadow: 2px 2px 19px #aaa;
     -o-box-shadow: 2px 2px 19px #aaa;
@@ -113,6 +113,7 @@ body{
 #info{
 	width: 60%;
 	border-right: 1px dotted grey;
+	color: #EDC7B7;
 }
 
 #img{
@@ -148,13 +149,14 @@ body{
 
 #hobbies, #skills{
 	width: 30%;
-	background-color: orange;
+	background-color: #BAB2B5;
 	padding: 1em;
 	height: 92%;
 	box-shadow: 2px 2px 19px #aaa;
     -o-box-shadow: 2px 2px 19px #aaa;
     -webkit-box-shadow: 2px 2px 19px #aaa;
     -moz-box-shadow: 2px 2px 19px #aaa;
+    color: #AC3B61;
 }
 
 #anim-obj1{
@@ -178,7 +180,7 @@ body{
 #box{
 	width: 140px;
 	height: 140px;
-	background-color: #44CBFD;
+	background-color: #123C69;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -201,7 +203,7 @@ body{
 #boxin{
 	width: 90px;
 	height: 90px;
-	background-color: orange;
+	background-color: #BAB2B5;
 }
 
 .hobby{
@@ -251,7 +253,7 @@ body{
 	align-items: center;
 	text-align: center;
 	margin-top: 3em;
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("images/back4.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("images/back4.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -260,10 +262,11 @@ body{
 }
 
 #contact-head{
-	font-size: 2em;
+	font-size: 2.5em;
 	margin-bottom: 1em;
 	width: 100%;
-	color: white;
+	color: #EDC7B7;
+	font-family: "Pacifico";
 }
 
 .contact-list{
@@ -278,7 +281,7 @@ body{
 	height: 70px;
 	width: 70px;
 	border-radius: 60px;
-	background-color: orange;
+	background-color: #123C69;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -287,9 +290,9 @@ body{
 
 .contact a{
 	text-decoration: none;
-	color: white;
+	color: #EDC7B7;
 }
 
 #copyright{
-	color: grey;
+	color: #EDC7B7;
 }
