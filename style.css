@@ -1,49 +1,7 @@
-/*.bar{
-	background-color: grey;
-	height: 52px;
-	position: fixed;
-	top: 0%;
-	width: 100%;
-}
-
-.nav{
-	list-style: none;
-	float: right;
-	display: flex;
-	flex-direction: row;
-	margin-top: 0px;
-}
-
-.logo{
-	color: white;
-	float: left;
-	padding: 0.3em 0.4em 0.3em 0.4em;
-	font-size: 1.8em;
-	font-family: "Aclonica";
-	background: -webkit-linear-gradient(#eee, #FA7C04);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.nav li{
-	padding: 1em;
-}
-
-.nav li a{
-	text-decoration: none;
-	font-family: "Roboto", sans serif;
-	padding: 1em;
-	color: white;
-}
-
-.nav li:hover{
-	background-color: rgba(0,0,0,1);
-	transition-duration: 0.5s;
-}*/
-
 body{
 	margin: 0px;
 	background-color: #E4E4E5;
+	font-family: Cardo;
 }
 
 #main{
@@ -56,10 +14,34 @@ body{
 	align-items: center;
 }
 
+#info a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#main-info{
+	width: 60%;
+	padding: 3em 2em 3em 2em;
+	border-radius: 30px;
+	background-color: #123C69;
+	display: flex;
+	box-shadow: 2px 2px 19px #8D8D8B;
+    -o-box-shadow: 2px 2px 19px #8D8D8B;
+    -webkit-box-shadow: 2px 2px 19px #8D8D8B;
+    -moz-box-shadow: 2px 2px 19px #8D8D8B;
+}
+
 #info{
-	padding: 1em 0 1em 0;
-	line-height: 1.8em;
+	width: 60%;
+	border-right: 1px dotted grey;
+	color: #EDC7B7;
+	padding: 1.2em 0 1em 0;
+	line-height: 2em;
 	font-size: 1.1em;
+}
+
+#name, #degree{
+	font-family: Oswald;
 }
 
 #name{
@@ -69,51 +51,6 @@ body{
 
 #degree{
 	font-size: 1.5em;
-}
-
-#info a{
-	color: inherit;
-	text-decoration: none;
-}
-
-/*#section1{
-	padding: 3em 0 1em 0;
-	width: 100%;
-	display: flex;
-	justify-content: flex-start;
-}
-
-#intro{
-	width: 40%;
-	padding: 2em;
-}
-
-.bold{
-	font-size: 25px;
-	font-weight: bold;
-}
-
-#profile-img img{
-	height: 500px;
-	margin-left: 2em;
-}*/
-
-#main-info{
-	width: 60%;
-	padding: 3em 2em 3em 2em;
-	border-radius: 30px;
-	background-color: #123C69;
-	display: flex;
-	box-shadow: 2px 2px 19px #aaa;
-    -o-box-shadow: 2px 2px 19px #aaa;
-    -webkit-box-shadow: 2px 2px 19px #aaa;
-    -moz-box-shadow: 2px 2px 19px #aaa;
-}
-
-#info{
-	width: 60%;
-	border-right: 1px dotted grey;
-	color: #EDC7B7;
 }
 
 #img{
@@ -143,7 +80,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	height: 350px;
+	height: 610px;
 	padding-bottom: 2em: 
 }
 
@@ -152,19 +89,21 @@ body{
 	background-color: #BAB2B5;
 	padding: 1em;
 	height: 92%;
-	box-shadow: 2px 2px 19px #aaa;
-    -o-box-shadow: 2px 2px 19px #aaa;
-    -webkit-box-shadow: 2px 2px 19px #aaa;
-    -moz-box-shadow: 2px 2px 19px #aaa;
+	box-shadow: 2px 2px 19px #8D8D8B;
+    -o-box-shadow: 2px 2px 19px #8D8D8B;
+    -webkit-box-shadow: 2px 2px 19px #8D8D8B;
+    -moz-box-shadow: 2px 2px 19px #8D8D8B;
     color: #AC3B61;
+    padding-left: 2em;
 }
 
 #anim-obj1{
 	width: 30%;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	flex-direction: column;
 }
 
 #hobbies{
@@ -185,10 +124,10 @@ body{
 	justify-content: center;
 	align-items: center;
 	-webkit-animation: rotation 3s infinite linear;
-	box-shadow: 2px 2px 19px #aaa;
-    -o-box-shadow: 2px 2px 19px #aaa;
-    -webkit-box-shadow: 2px 2px 19px #aaa;
-    -moz-box-shadow: 2px 2px 19px #aaa;
+	box-shadow: 2px 2px 19px #8D8D8B;
+    -o-box-shadow: 2px 2px 19px #8D8D8B;
+    -webkit-box-shadow: 2px 2px 19px #8D8D8B;
+    -moz-box-shadow: 2px 2px 19px #8D8D8B;
 }
 
 @-webkit-keyframes rotation {
@@ -206,20 +145,31 @@ body{
 	background-color: #BAB2B5;
 }
 
+.hobby2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .hobby{
 	font-size: 1.3em;
 	margin: 0.2em;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.left, .right{
-	width: 30%;
-	display: inline-block;
-	height: 10px;
-	background-color: #9F9F9D;
-	border: none;
+#h-cont{
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.hobby img{
+	height: 100px;
+	margin-bottom: 0.3em;
 }
 
 .skill, #l-cont{
@@ -233,11 +183,27 @@ body{
 
 #l-cont{
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.lang3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .lang{
 	margin: 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lang img{
+	height: 70px;
+	margin-bottom: 0.3em;
 }
 
 #langs{
